@@ -9,7 +9,6 @@ mod 'puppetlabs-firewall', '1.12.0'
 mod 'puppet-puppetserver', '3.0.0'
 mod 'herculesteam-augeasproviders_core', '2.1.4'
 mod 'camptocamp-augeas', '1.6.0'
-mod 'puppetlabs-puppetdb', '6.0.2'
 
 
 
