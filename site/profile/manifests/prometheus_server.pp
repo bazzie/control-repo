@@ -18,7 +18,7 @@ class profile::prometheus_server {
         'scrape_interval' => '5s',
         'scrape_timeout'  => '5s',
         'static_configs'  => [
-           { 'targets' => [ 'localhost:9100' ],
+           { 'targets' => [ 'localhost:9100', 'test.wildemann.nl:9001' ],
              'labels'  => { 'alias'=> 'Node'}
            }
         ]
