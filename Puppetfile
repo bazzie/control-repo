@@ -10,6 +10,10 @@ mod 'puppetlabs-concat', '4.2.1'
 mod 'puppet-puppetserver', '3.0.0'
 mod 'herculesteam-augeasproviders_core', '2.1.4'
 mod 'camptocamp-augeas', '1.6.0'
+mod 'puppet-prometheus', '5.0.0'
+mod 'puppet-archive', '2.3.0'
+mod 'camptocamp-systemd', '1.1.1'
+
 
 
 mod 'git',
