@@ -13,8 +13,9 @@ class profile::prometheus_server {
        }
       ]
     }
-  ]
-}
+   ]
+  }
 
+  include prometheus::node_exporter
 
 }
