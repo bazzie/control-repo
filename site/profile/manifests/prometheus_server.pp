@@ -18,7 +18,7 @@ class profile::prometheus_server {
         'scrape_interval' => '5s',
         'scrape_timeout'  => '5s',
         'static_configs'  => [
-           { 'targets' => [ 'monitoring.wildemann.nl:9100', 'test.wildemann.nl:9100', 'puppet.wildemann.nl:9100' ],
+           { 'targets' => [ 'monitoring.wildemann.nl:9100', 'test.wildemann.nl:9100', 'puppet.wildemann.nl:9100', 'server.wildemann.nl:9100' ],
              'labels'  => { 'alias'=> 'Node'}
            }
         ]
