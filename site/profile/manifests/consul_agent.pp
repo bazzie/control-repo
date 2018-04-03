@@ -10,7 +10,7 @@ class profile::consul_agent {
     config_hash => {
       'data_dir'   => '/opt/consul',
       'log_level'  => 'INFO',
-      'node_name'  => 'agent',
+      'node_name'  => '$FQDN',
       'retry_join' => ['monitoring.wildemann.nl'],
     }
 }
