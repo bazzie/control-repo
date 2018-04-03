@@ -6,7 +6,7 @@ class profile::consul_server {
       'bootstrap_expect' => 1,
       'data_dir'         => '/opt/consul',
       'log_level'        => 'INFO',
-      'node_name'        => "${FQDN}",
+      'node_name'        => 'server',
       'server'           => true,
     }
   }
