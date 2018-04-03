@@ -14,6 +14,7 @@ mod 'puppet-prometheus', '5.0.0'
 mod 'puppet-archive', '2.3.0'
 mod 'camptocamp-systemd', '1.1.1'
 mod 'puppet-grafana', '4.2.0'
+mod 'KyleAnderson-consul', '3.3.0'
 
 mod 'git',
   :git    => 'https://github.com/bazzie/git',
