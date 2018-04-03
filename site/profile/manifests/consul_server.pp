@@ -7,6 +7,7 @@ class profile::consul_server {
 
   class { '::consul':
     config_hash => {
+      'client_addr'      => '0.0.0.0',
       'bootstrap_expect' => 1,
       'data_dir'         => '/opt/consul',
       'log_level'        => 'INFO',
