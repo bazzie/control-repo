@@ -12,10 +12,4 @@ class profile::puppetserver {
     content => '*.wildemann.nl',
   }
 
-
-  @consul::service { 'puppetserver':
-    port    => 8140,
-    tags    => ['consul_service']
-  }
-
 }
