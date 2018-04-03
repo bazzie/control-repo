@@ -17,6 +17,7 @@ class profile::consul_server {
     }
   }
 
+  Consul::Service <| tag == consul_service |>
 
 
 }
