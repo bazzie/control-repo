@@ -17,9 +17,4 @@ class profile::consul_server {
     }
   }
 
-  consul::service { 'puppetserver':
-    port    => 8140,
-    tags    => ['consul_service']
-  }  
-
 }
