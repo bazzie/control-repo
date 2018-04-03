@@ -1,5 +1,10 @@
 class profile::consul_agent {
 
+  package {'unzip':
+    ensure => present,
+  }
+
+
 
   class { '::consul':
     config_hash => {
