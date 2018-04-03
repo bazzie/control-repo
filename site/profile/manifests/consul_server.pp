@@ -12,6 +12,7 @@ class profile::consul_server {
       'log_level'        => 'INFO',
       'node_name'        => 'server',
       'server'           => true,
+      'ui'               => true,
     }
   }
 
