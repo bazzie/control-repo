@@ -21,3 +21,7 @@ mod 'puppet-nodejs', '5.0.0'
 mod 'git',
   :git    => 'https://github.com/bazzie/git',
   :branch => 'master'
+
+mod 'node_red',
+  :git    => 'https://github.com/bazzie/node_red',
+  :branch => 'master'
