@@ -1,8 +1,8 @@
 class profile::nodered {
 
 
-  package { 'express':
-    ensure   => 'nodered',
+  package { 'node-red':
+    ensure   => 'present',
     provider => 'npm',
     require  => Class['nodejs'],
   }
