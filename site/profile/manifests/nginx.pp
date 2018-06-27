@@ -1,7 +1,7 @@
 class profile::nginx {
 
   file { '/var/www/www.wildemann.nl':
-    ensure => firectory,
+    ensure => directory,
   }
 
   class { 'nginx': }
