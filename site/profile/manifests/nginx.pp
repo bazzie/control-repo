@@ -7,7 +7,7 @@ class profile::nginx {
   class { 'nginx': }
 
   nginx::resource::server { 'www.wildemann.nl':
-    www_root => '/var/www/www.www.wildemann.nl',
+    www_root => '/var/www/www.wildemann.nl',
   }
   
 
