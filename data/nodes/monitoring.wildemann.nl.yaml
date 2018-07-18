@@ -1,3 +1,5 @@
 ---
 classes:
   - role::monitoring_server
+
+grafana::version: '5.2.1'
