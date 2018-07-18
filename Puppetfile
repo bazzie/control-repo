@@ -19,7 +19,7 @@ mod 'puppet-nodejs', '5.0.0'
 mod 'camptocamp-systemd', '1.1.1'
 mod 'puppet-nginx', '0.12.0'
 mod 'puppetlabs-concat', '4.2.1'
-mod 'puppetlabs-puppet_metrics_dashboard', '1.0.1'
+mod 'golja-influxdb', '4.0.0'
 
 
 mod 'git',
