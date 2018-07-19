@@ -6,7 +6,7 @@ consul::services:
   puppetserver:
     address: "%{::ipaddress}"
     checks:
-      - http: https://localhost:8140
+      - http: https://puppet:8140
         interval: 5s
     port: 8140
     tags:
@@ -14,7 +14,7 @@ consul::services:
   puppetdb:
     address: "%{::ipaddress}"
     checks:
-      - http: https://localhost:8081
+      - http: https://puppet:8081
         interval: 5s
     port: 8081
     tags:
