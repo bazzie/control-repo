@@ -1,3 +1,21 @@
 ---
 classes:
   - role::puppetserver
+
+consul::services:
+  puppetserver:
+    address: "%{::ipaddress}"
+    checks:
+      - http: https://localhost:8140
+        interval: 5s
+    port: 8140
+    tags:
+      - "puppetserver"
+  puppetdb:
+    address: "%{::ipaddress}"
+    checks:
+      - http: https://localhost:8081
+        interval: 5s
+    port: 8081
+    tags:
+      - "puppetdb"
