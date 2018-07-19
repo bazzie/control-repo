@@ -11,8 +11,4 @@ class profile::puppetserver {
     content => '*.wildemann.nl',
   }
 
-  file {'/etc/consul/service_puppetserver.json':
-    ensure  => present,
-    content => '{"service":{"name":"puppetserver","port":8140}}',
-  }
 }
