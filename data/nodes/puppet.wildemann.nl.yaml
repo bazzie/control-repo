@@ -6,7 +6,7 @@ consul::services:
   puppetserver:
     address: "%{::ipaddress}"
     checks:
-      - http: https://puppet.wildemann.nl:8140
+      - script: /usr/local/bin/check_puppet_server.sh
         interval: 5s
     port: 8140
     tags:
