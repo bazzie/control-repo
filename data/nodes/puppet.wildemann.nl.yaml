@@ -14,7 +14,7 @@ consul::services:
   puppetdb:
     address: "%{::ipaddress}"
     checks:
-      - http: https://puppet.wildemann.nl:8081
+      - script: /usr/local/bin/check_puppet_db.sh
         interval: 5s
     port: 8081
     tags:
