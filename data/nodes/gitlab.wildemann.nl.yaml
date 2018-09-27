@@ -1,3 +1,5 @@
 ---
 classes:
   - role::gitlabserver
+
+gitlab::external_url: 'http://gitlab.wildemann.nl'

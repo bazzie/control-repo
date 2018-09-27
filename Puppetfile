@@ -20,7 +20,7 @@ mod 'camptocamp-systemd', '1.1.1'
 mod 'puppet-nginx', '0.12.0'
 mod 'puppetlabs-concat', '4.2.1'
 mod 'golja-influxdb', '4.0.0'
-
+mod 'puppet-gitlab', '2.1.0'
 
 mod 'git',
   :git    => 'https://github.com/bazzie/git',
